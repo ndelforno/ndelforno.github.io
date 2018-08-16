@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Nicolas Delforno </title>
-<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-<style>
-img {
+.logo {
   margin: 40px 0px 0px 0px;
   border: 2px solid white;
   border-radius: 20px;
-  background-color: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5);
+}
+.icon {
+  height:85px;
+  width:85px;
 }
 body{
   background: url("https://i.imgur.com/H51Dyrl.jpg");
@@ -26,7 +24,7 @@ p{
   color: Black;
   font-family: 'Merriweather';
 }
-ul {
+.menu {
   padding: 10px;
   background: rgba(0,0,0,0.5);
 }
@@ -60,6 +58,7 @@ li {
   p {
     color: white;
     font-weight: bold;
+    text-align: center;
   }
   * {
       box-sizing: border-box;
@@ -77,34 +76,9 @@ li {
       display: table;
       clear: both;
   }
-</style>
-</head>
-<body>
-  <header>
-    <img src="https://i.imgur.com/YmI9Xrt.png">
-    <h1>Web Devlopment</h1>
-    <ul>
-      <li><a href="#">About me</a></li>
-      <li><a href="#">Portofollio</a></li>
-      <li><a href="#">Skills</a></li>
-    </footer>
-  </header>
-<br>
-<div class="row">
-  <div class="column" style="background-color:rgba(0,0,0,0.5);">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column" style="background-color:rgba(0,0,0,0.5);">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column" style="background-color:rgba(0,0,0,0.5);">
-    <h2>Column 3</h2>
-    <p>Some text..</p>
-  </div>
-</div>
-<input type="email" placeholder="Your email">
-<input type="submit">
-</body>
-</html>
+  h2{
+    color: #42bcf4;
+  }
+  h3{
+    color: #afd9ed;
+  }
