@@ -15,7 +15,6 @@ body{
 }
 header {
   text-align: center;
-  color: Black;
   font-family: 'Merriweather';
 }
 p{
@@ -25,11 +24,25 @@ p{
   font-family: 'Merriweather';
 }
 .menu {
-  padding: 10px;
-  background: rgba(0,0,0,0.5);
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  background-color: rgba(66, 188, 244,0.5);
+}
+.menu li {
+  display: inline;
+}
+li a {
+  display: inline-block;
+  color: White;
+  padding:10px;
+  text-decoration: none;
 }
 li {
-  display: inline;
+  display: list-item;
   padding: 20px;
 }
 @media (max-width: 500px) {
@@ -43,9 +56,12 @@ li {
       }
     }
   a {
-    color: #42bcf4;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
   }
   input{
+      padding: 40px;
       border: 0;
       padding: 10px;
       font-size: 18px;
@@ -67,7 +83,7 @@ li {
   .column {
       float: left;
       width: 33.33%;
-      padding: 10px;
+      padding: 5px;
       color: white
   }
 /* Clear floats after the columns */
