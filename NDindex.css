@@ -24,7 +24,6 @@ p{
   font-family: 'Merriweather';
 }
 .menu {
-  border:1px solid #ccc;
   border-width:1px 0;
   list-style:none;
   margin:0;
@@ -43,6 +42,7 @@ li a {
 }
 li {
   display: list-item;
+  list-style: none;
   padding: 20px;
 }
 @media (max-width: 500px) {
@@ -68,7 +68,7 @@ li {
       text-align: center;
     }
   input[type="submit"] {
-      background: red;
+      background: #42bcf4;
       color: white;
     }
   p {
