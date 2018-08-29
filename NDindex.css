@@ -31,6 +31,9 @@ p{
   text-align:center;
   background-color: rgba(66, 188, 244,0.5);
 }
+.menu li a:hover {
+  color:#033482;
+}
 .menu li {
   display: inline;
 }
