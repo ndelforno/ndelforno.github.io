@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #f4a142;
 }
 
 .parallax-container {
@@ -43,6 +43,9 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .brand-logo{
+    font-size: 50px;
+  }
 }
 
 .icon-block {
@@ -54,4 +57,26 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+
+.project{
+  margin: 25px;
+  display: inline-block;
+}
+
+.project:hover{
+  box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.75);;
+}
+
+.project a{
+  color: #f4a142;
+}
+
+#skills{
+   text-align: center;
+}
+
+#urban_hunter, #feedbapp{
+  width:350px;
 }
