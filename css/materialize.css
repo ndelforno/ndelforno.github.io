@@ -2132,6 +2132,11 @@
   color: #FFFFFF !important;
 }
 
+a.white-text:hover{
+  color: black !important;
+}
+
+
 .transparent {
   background-color: transparent !important;
 }
