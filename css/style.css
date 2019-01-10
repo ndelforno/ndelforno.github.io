@@ -91,6 +91,7 @@ footer.page-footer {
   padding: 5px;
 }
 
+
 .skill-logo{
   height: 4em;
   margin: .1em auto;
@@ -108,11 +109,13 @@ footer.page-footer {
 }
 
 .languages{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 25px;
 }
 
 .frameworks{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 25px;
 }
