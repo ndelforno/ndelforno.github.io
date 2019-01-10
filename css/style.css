@@ -6,6 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+ .profile-pic {
+   border-radius: 50%;
+   background-size: 100%;
+   margin: 1em;
+   max-width: 7em;
+   max-height: 7em;
+ }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -118,4 +126,14 @@ footer.page-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 25px;
+}
+
+.other-skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 25px;
+}
+
+.other-skills > p {
+  margin-top: 0;
 }
