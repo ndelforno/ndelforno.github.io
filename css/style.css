@@ -84,3 +84,35 @@ footer.page-footer {
 #made_by{
   text-align: center;
 }
+
+.social-logo {
+  height: 4em;
+  margin: .1em auto;
+  padding: 5px;
+}
+
+.skill-logo{
+  height: 4em;
+  margin: .1em auto;
+}
+
+.social-logo:hover .linkedin {
+  fill: #0077B5;
+}
+
+.social-logo:hover .github {
+  fill: #666;
+}
+.social-logo:hover .twitter {
+  fill: #1DA1F2;
+}
+
+.languages{
+  display: flex;
+  padding: 25px;
+}
+
+.frameworks{
+  display: flex;
+  padding: 25px;
+}
