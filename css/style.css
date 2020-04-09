@@ -74,7 +74,9 @@ footer.page-footer {
 }
 
 .project:hover{
-  box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.75);;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .project a{
