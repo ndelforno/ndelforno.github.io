@@ -118,7 +118,7 @@ footer.page-footer {
   fill: #1DA1F2;
 }
 
-.languages{
+.skills{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 25px;
